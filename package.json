@@ -1,0 +1,27 @@
+{
+  "name": "blue_horse",
+  "version": "1.0.0",
+  "description": "System to calculate and manage clan member points and activity",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Yii2",
+    "PHP",
+    "LinAge2"
+  ],
+  "author": "Zuev Roman",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.12.0"
+  }
+}
