@@ -20,7 +20,8 @@ class MyAsset extends AssetBundle
   public $basePath = '@webroot';
   public $baseUrl = '@web';
   public $css = [
-    'css/style.css'
+    'css/bootstrap-grid.min.css',
+    'css/style.css',
   ];
   public $js = [
   ];

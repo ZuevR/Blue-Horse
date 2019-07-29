@@ -18,7 +18,7 @@ const path = {
     fonts: "src/fonts/**/*.{ttf,woff,woff2,eot}"
   },
   watch: {
-    css: "web/assets/scss/*.scss",
+    css: "web/assets/scss/**/*.scss",
   }
 };
 
