@@ -46,7 +46,7 @@ MyAsset::register($this);
       <nav class="menu auth">
         <?php echo Menu::widget([
           'items' => [
-            ['label' => 'Registration',  'url' => ['/site/register']],
+            ['label' => 'Registration',  'url' => ['/user/signup']],
             ['label' => 'Login', 'url' => ['/site/login']],
           ],
           'itemOptions' => ['class'=>'menu-item colored']

@@ -67,16 +67,16 @@ class SiteController extends Controller
    *
    * @return Response|string
    */
-  public function actionRegister() {
-    if (!Yii::$app->user->isGuest) {
-      return $this->goHome();
-    }
-    $model = new SignUpForm();
-    $model->password = '';
-    return $this->render('signup', [
-      'model' => $model,
-    ]);
-  }
+//  public function actionRegister() {
+//    if (!Yii::$app->user->isGuest) {
+//      return $this->goHome();
+//    }
+//    $model = new SignUpForm();
+//    $model->password = '';
+//    return $this->render('signup', [
+//      'model' => $model,
+//    ]);
+//  }
 
   /**
    * Login action.
