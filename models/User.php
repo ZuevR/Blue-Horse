@@ -18,6 +18,7 @@ class User extends \yii\db\ActiveRecord
     /**
      * {@inheritdoc}
      */
+
     public static function tableName()
     {
         return 'user';
@@ -32,7 +33,7 @@ class User extends \yii\db\ActiveRecord
             'id' => 'ID',
             'name' => 'Name',
             'email' => 'Email',
-            'hash_pass' => 'Hash Pass',
+//            'hash_pass' => 'Hash Pass',
             'status' => 'Status',
         ];
     }

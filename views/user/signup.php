@@ -1,7 +1,6 @@
 <?php
 
 /* @var $this yii\web\View */
-/* @var $form yii\bootstrap\ActiveForm */
 
 /* @var $model app\models\LoginForm */
 
@@ -43,7 +42,7 @@ $this->title = 'Registration';
       <?= $form->field($model, 'password_repeat')->label('Repeat password *')->passwordInput() ?>
 
       <div class="form-group">
-        <?= Html::submitButton('Ask to register', ['class' => 'site-button', 'name' => 'login-button']) ?>
+        <?= Html::submitButton('Запросить регистрацию', ['class' => 'site-button', 'name' => 'login-button']) ?>
       </div>
 
       <?php ActiveForm::end(); ?>
@@ -55,7 +54,7 @@ $this->title = 'Registration';
         <ul class="info-content">
           <li class="point">Для регистрации в системе заполните поля и нажмите кнопку “Запросить регистрацию“.</li>
           <li class="point">Поля отмеченные звездочкой обязательны к заполнению.</li>
-          <li class="point">При заполнении поля “Nickname“ указывайте ник вашего основного персоонажа.</li>
+          <li class="point">При заполнении поля “Nickname“ указывайте ник вашего основного персонажа.</li>
           <li class="point important">Важно: В случае успешной отправки ваших данных, только администратор может добавить ваш аккаунт в систему!</li>
         </ul>
       </div>
